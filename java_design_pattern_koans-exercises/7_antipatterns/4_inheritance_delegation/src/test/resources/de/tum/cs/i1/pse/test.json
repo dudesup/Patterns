@@ -1,0 +1,29 @@
+[
+  {
+    "class": "MyStack",
+    "fields": {
+        "vectorDelegate": "Vector<T>"
+    },
+      
+     "methods": {
+          "push": {
+            "parameters": ["Object"],
+            "returnType": "void"
+          },
+          "pop": {
+            "parameters": [ ],
+            "returnType": "Object"
+          },
+           "top": {
+            "parameters": [],
+            "returnType": "Object"
+          },
+           "isEmpty": {
+            "parameters": [ ],
+            "returnType": "boolean"
+          }
+           
+        }
+  }
+  
+]

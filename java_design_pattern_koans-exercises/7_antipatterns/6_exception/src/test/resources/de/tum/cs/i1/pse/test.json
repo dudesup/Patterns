@@ -1,0 +1,39 @@
+[
+ {
+	 "class": "Account",
+	 "fields": {
+	 	"balance": "int", 
+ 	 },
+	 "constructors": 
+		 [
+		  {
+			  "modifiers": ["public"]
+		  },
+		  {
+			  "modifiers": ["public"],
+			  "parameters": ["int"]
+		  }],
+	 "methods": {
+ 		 "deposit": {
+ 		 	"modifiers": ["public"],
+ 		 	"parameters": ["int"],
+ 		 	"returnType": "void"
+ 	 	 },
+ 	 	 "canWithdraw": {
+  		 	"modifiers": ["public"],
+  		 	"parameters": ["int"],
+  		 	"returnType": "boolean" 	 		 
+ 	 	 },
+ 	 	 "withdraw": {
+   		 	"modifiers": ["public"],
+   		 	"parameters": ["int"],
+   		 	"exceptions": ["BalanceException"],
+   		 	"returnType": "void"  	 		 
+ 	 	 }
+ 	 }
+ },
+ {
+	 "class": "BalanceException",
+	 "superclass": "Exception"	 
+ }
+]

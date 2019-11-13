@@ -1,0 +1,20 @@
+[
+	{
+		"class": "dispatcher.Dispatcher",
+		"fields": {
+			"locationMap": "HashMap<String>"
+		}
+	},
+	{
+		"class": "client.IMClient",
+		"methods": {
+			"getServerLocation": {
+				"parameters": [
+					"String"
+				],
+				"returnType": "void"
+			}
+		}
+	}
+]
+ 

@@ -1,0 +1,57 @@
+[
+ {
+	 "class": "Employee",
+	 "methods": {
+		 "getMonthlySalary": {
+			 "parameters": [],
+			 "returnType": "int"
+		 	},
+		 		"getBonus": {
+			 "parameters": [],
+			 "returnType": "int"
+	 	},	
+	 		"payAmount": {
+			 "parameters": [],
+			 "returnType": "int"
+	 	}	 	
+	 		 	
+	  }
+ },
+
+
+ {
+	 "class": "Engineer",
+	 "superclass": "Employee",
+	 "methods": {
+	 	"payAmount": {
+	 		"parameters": [],
+	 		"returnType": "int"
+	 	}
+  	 }
+ },	
+ {
+	 "class": "Manager",
+	 "superclass": "Employee",
+	 "methods": {
+	 	"payAmount": {
+	 		"parameters": [],
+	 		"returnType": "int"
+	 	}
+  	 }
+ },	
+
+  {
+	 "class": "Intern",
+	 "superclass": "Employee",
+	 "methods": {
+	 	"payAmount": {
+	 		"parameters": [],
+	 		"returnType": "int"
+	 	}
+  	 }
+ },	
+
+ 
+	 
+
+ ]
